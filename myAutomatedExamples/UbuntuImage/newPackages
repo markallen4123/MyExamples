@@ -1,0 +1,17 @@
+# newPackages
+# 
+# This file accepts 2 types of non-comment command line formats:
+# 1) The debconf-set-selections command line to preload answers to package questions
+# 2) the package name to install
+aptitude
+openssh-server
+gdebi
+dpkg-dev
+#
+# Default root password for mysql database.
+#
+#echo mysql-server mysql-server/root_password password mysql | sudo debconf-set-selections
+#echo mysql-server mysql-server/root_password_again password mysql | sudo debconf-set-selections
+mysql-server
+nmap
+ethtool
